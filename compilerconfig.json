@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFile": "Content/Site.css",
+    "inputFile": "Content/Site.scss"
+  },
+  {
+    "outputFile": "app/carousel/carousel.component.css",
+    "inputFile": "app/carousel/carousel.component.scss"
+  },
+  {
+    "outputFile": "app/whyUs/whyUs.component.css",
+    "inputFile": "app/whyUs/whyUs.component.scss"
+  },
+  {
+    "outputFile": "app/restoration-services/services.component.css",
+    "inputFile": "app/restoration-services/services.component.scss"
+  },
+  {
+    "outputFile": "app/modal/modal.component.css",
+    "inputFile": "app/modal/modal.component.scss"
+  },
+  {
+    "outputFile": "app/contactUs/contactUs.component.css",
+    "inputFile": "app/contactUs/contactUs.component.scss"
+  },
+  {
+    "outputFile": "app/review/review.component.css",
+    "inputFile": "app/review/review.component.scss"
+  }
+]

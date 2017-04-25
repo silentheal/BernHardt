@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway" rel="stylesheet">
+    <title>Bernhardt Restoration</title>
+    @Styles.Render("~/Content/css") @Scripts.Render("~/bundles/modernizr") @*@Styles.Render("~/app")*@
+
+    <!-- Angular2 Code -->
+    <base href="/">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Polyfill(s) for older browsers -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script>
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
+    </script>
+    <!-- Angular2 Code -->
+
+</head>
+
+<body id="body">
+    <section>
+        <div class="container-fluid">
+            <div class="navbar-fixed-top">
+                <div class="bernhardt-nav">
+                        <h1 class="nav-header">
+                            <a href="#body">
+                                <div id="nav-header-line-left"></div>
+                                <div id="bernhardt-nav-header">
+                                    <span id="first-char-nav">B</span>
+                                    <span>E</span>
+                                    <span>R</span>
+                                    <span>N</span>
+                                    <span>H</span>
+                                    <span>A</span>
+                                    <span>R</span>
+                                    <span>D</span>
+                                    <span>T</span>
+                                </div>
+                                <div id="bernhardt-nav-name">
+                                    <h4>Restoration Company</h4>
+                                </div>
+                                <div id="nav-header-line-right"></div>
+                                <div class="clearfix"></div>
+                            </a>
+                        </h1>
+                </div>
+                <div class="bernhardt-nav-menu">
+                    <ul>
+                        <li><a href="#whyUs">Why us?</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contactUs">Contact us</a></li>
+                        <li><a href="#">Quick Report</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="body-content">
+        @RenderBody()
+    </div>
+    <footer class="container-fluid bernhardt-footer">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+                <img src="/images/logo/logo-white.png" alt="logo" id="logo-image">
+            </div>
+            <div class="col-sm-6 align-left">
+                <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fu%3Dhttp%253A%252F%252Fbernhardtrestoration.com%252F%26title%3DAbout&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=en_US"><img src="/images/social-icon/facebook-white.png" alt="social-icon" class="social-icon"></a>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://bernhardtrestoration.com/&summary=%5B..%5D&source="><img src="/images/social-icon/linkedin-white.png" alt="social-icon" class="social-icon"></a>
+                <a href="https://twitter.com/login?redirect_after_login=%2Fhome%3Fstatus%3Dhttp%3A%2F%2Fbernhardtrestoration.com%2F%26title%3DAbout"><img src="/images/social-icon/twitter-white.png" alt="social-icon" class="social-icon"></a>
+                <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjI0dGu0b3TAhVr6IMKHUcmBWoQPAgD#hl=en&q=bernhardt+restoration"><img src="/images/social-icon/google-white.png" alt="social-icon" class="social-icon"></a>
+            </div>
+            </div>
+            <div class="col-sm-12">
+                <p class="copyright">&copy; @DateTime.Now.Year - By Silent heal</p>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery") @Scripts.Render("~/bundles/bootstrap") @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        var $root = $('html, body');
+        $('a').click(function () {
+            var target = $.attr(this, 'href');
+            console.log(target);
+            if (target == "#body") {
+                $root.animate({
+                    scrollTop: 0
+                }, 500);
+            } else {
+                $root.animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top - 135
+                }, 500);
+            }
+            return false;
+        });
+    </script>
+</body>
+
+</html>

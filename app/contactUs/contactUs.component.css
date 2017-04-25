@@ -1,0 +1,54 @@
+﻿.container-fluid {
+  background-color: rgba(233, 178, 0, 0.6);
+  padding: 50px 0px;
+  color: white;
+  text-align: center; }
+
+.header-div {
+  text-align: center;
+  position: relative; }
+  .header-div .services-header {
+    padding: 5px 50px;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 0.6); }
+  .header-div #header-pre-div {
+    float: left;
+    width: 30px;
+    left: 37%;
+    position: relative;
+    height: 30px;
+    margin-top: 5px;
+    border-top: 1px solid white;
+    border-left: 1px solid white; }
+  .header-div #header-middle-div {
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white; }
+  .header-div #header-after-div {
+    float: left;
+    width: 30px;
+    right: -58%;
+    position: relative;
+    height: 30px;
+    margin-top: 43px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white; }
+
+.form-input {
+  margin-top: 50px; }
+
+.btn-send {
+  width: 100%; }
+
+.services-area {
+  border: 1px solid white; }
+
+.table-area {
+  margin: 20px auto;
+  padding: 10px; }
+  .table-area td {
+    border: 0px;
+    font-size: 120%; }
+

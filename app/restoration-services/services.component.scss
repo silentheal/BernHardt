@@ -1,0 +1,151 @@
+﻿section {
+    margin: 50px auto;
+}
+
+.header-div {
+    text-align: center;
+    position: relative;
+    .services-header {
+        padding: 5px 50px;
+        font-weight: 700;
+        border: 1px solid rgba(128, 128, 128, 0.2);
+    }
+    #header-pre-div {
+        float: left;
+        width: 30px;
+        left: 39%;
+        position: relative;
+        height: 30px;
+        margin-top: 5px;
+        border-top: 1px solid lightgray;
+        border-left: 1px solid lightgray;
+    }
+    #header-middle-div {
+        float: left;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #header-after-div {
+        float: left;
+        width: 30px;
+        right: -56%;
+        position: relative;
+        height: 30px;
+        margin-top: 43px;
+        border-bottom: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+    }
+}
+
+.services-box {
+    padding: 20px;
+    .col-md-6 {
+        text-align: center;
+    }
+    .restoration {
+        text-align: center;
+        padding: 20px 10px;
+    }
+    #fire {
+        width: 100%;
+        img {
+            padding: 20px; //background: linear-gradient(135deg, rgba(230, 176, 0, 0.4) 0%, rgba(230, 176, 0, 0.6) 50%, rgba(230, 176, 0, 0.8) 50%, rgba(230, 176, 0, 0.7) 100%);
+            border-radius: 50%;
+        }
+    }
+    #flood {
+        width: 100%;
+        img {
+            padding: 20px; //background: linear-gradient(135deg, rgba(0, 191, 234, 0.1) 0%, rgba(0, 191, 234, 0.3) 50%, rgba(0, 191, 234, 0.5) 50%, rgba(0, 191, 234, 0.4) 100%);
+            border-radius: 50%;
+        }
+    }
+    #storm {
+        width: 100%;
+        img {
+            padding: 20px; //background: linear-gradient(135deg, rgba(128, 128, 128, 0.4) 0%, rgba(128, 128, 128, 0.6) 50%, rgba(128, 128, 128, 0.9) 50%, rgba(128, 128, 128, 0.8) 100%);
+            border-radius: 50%;
+        }
+    }
+    #mold {
+        width: 100%;
+        img {
+            padding: 20px; //background: linear-gradient(135deg, rgba(128, 128, 128, 0.4) 0%, rgba(128, 128, 128, 0.6) 50%, rgba(128, 128, 128, 0.9) 50%, rgba(128, 128, 128, 0.8) 100%);
+            border-radius: 50%;
+        }
+    }
+    #cleaning {
+        width: 100%;
+        img {
+            padding: 20px; //background: linear-gradient(135deg, rgba(128, 128, 128, 0.4) 0%, rgba(128, 128, 128, 0.6) 50%, rgba(128, 128, 128, 0.9) 50%, rgba(128, 128, 128, 0.8) 100%);
+            border-radius: 50%;
+        }
+    }
+    #reconstuction {
+        width: 100%;
+        img {
+            padding: 20px; //background: linear-gradient(135deg, rgba(128, 128, 128, 0.4) 0%, rgba(128, 128, 128, 0.6) 50%, rgba(128, 128, 128, 0.9) 50%, rgba(128, 128, 128, 0.8) 100%);
+            border-radius: 50%;
+        }
+    }
+    img {
+        width: 200px;
+    }
+}
+
+.restoration-services {
+    position: relative;
+    border: 1px solid;
+    border-bottom: 7px solid;
+    border-color: lightgrey;
+    font-family: 'Libre Baskerville', serif; 
+    margin-bottom: 20px;
+    cursor: pointer;
+    .services-header {
+        border-top: 1px solid lightgrey;
+        font-weight: 700;
+        font-size: 175%;
+        color: gray;
+        margin: 0;
+        padding-top: 27px;
+    }
+    .services-header-div {
+        transform: rotateY(90deg);
+    }
+    .services-info {   
+        font-weight: 700;
+        font-size: 175%;
+    }
+    .services-desc-div {
+        transform: rotateY(0deg);
+        transition: transform 0.25s;
+    }
+    .services-desc-div.side {
+        transform: rotateY(90deg);
+        transition: transform 0.25s;
+    }
+
+    .services-image {
+        transform: rotateY(0deg);
+        transition: transform 0.25s;
+    }
+    .services-image.side {
+        transform: rotateY(90deg);
+        transition: transform 0.25s;
+    }
+
+    .services-image-div {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        transform: rotateY(90deg);
+        transition: transform 0.25s;
+        padding-top: 40px;
+        color: orange;
+    }
+    .services-image-div.side {
+        transform: rotateY(0deg);
+        transition: transform 0.25s;
+    }
+}

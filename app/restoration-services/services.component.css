@@ -1,0 +1,118 @@
+﻿section {
+  margin: 50px auto; }
+
+.header-div {
+  text-align: center;
+  position: relative; }
+  .header-div .services-header {
+    padding: 5px 50px;
+    font-weight: 700;
+    border: 1px solid rgba(128, 128, 128, 0.2); }
+  .header-div #header-pre-div {
+    float: left;
+    width: 30px;
+    left: 39%;
+    position: relative;
+    height: 30px;
+    margin-top: 5px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray; }
+  .header-div #header-middle-div {
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0); }
+  .header-div #header-after-div {
+    float: left;
+    width: 30px;
+    right: -56%;
+    position: relative;
+    height: 30px;
+    margin-top: 43px;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray; }
+
+.services-box {
+  padding: 20px; }
+  .services-box .col-md-6 {
+    text-align: center; }
+  .services-box .restoration {
+    text-align: center;
+    padding: 20px 10px; }
+  .services-box #fire {
+    width: 100%; }
+    .services-box #fire img {
+      padding: 20px;
+      border-radius: 50%; }
+  .services-box #flood {
+    width: 100%; }
+    .services-box #flood img {
+      padding: 20px;
+      border-radius: 50%; }
+  .services-box #storm {
+    width: 100%; }
+    .services-box #storm img {
+      padding: 20px;
+      border-radius: 50%; }
+  .services-box #mold {
+    width: 100%; }
+    .services-box #mold img {
+      padding: 20px;
+      border-radius: 50%; }
+  .services-box #cleaning {
+    width: 100%; }
+    .services-box #cleaning img {
+      padding: 20px;
+      border-radius: 50%; }
+  .services-box #reconstuction {
+    width: 100%; }
+    .services-box #reconstuction img {
+      padding: 20px;
+      border-radius: 50%; }
+  .services-box img {
+    width: 200px; }
+
+.restoration-services {
+  position: relative;
+  border: 1px solid;
+  border-bottom: 7px solid;
+  border-color: lightgrey;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 20px;
+  cursor: pointer; }
+  .restoration-services .services-header {
+    border-top: 1px solid lightgrey;
+    font-weight: 700;
+    font-size: 175%;
+    color: gray;
+    margin: 0;
+    padding-top: 27px; }
+  .restoration-services .services-header-div {
+    transform: rotateY(90deg); }
+  .restoration-services .services-info {
+    font-weight: 700;
+    font-size: 175%; }
+  .restoration-services .services-desc-div {
+    transform: rotateY(0deg);
+    transition: transform 0.25s; }
+  .restoration-services .services-desc-div.side {
+    transform: rotateY(90deg);
+    transition: transform 0.25s; }
+  .restoration-services .services-image {
+    transform: rotateY(0deg);
+    transition: transform 0.25s; }
+  .restoration-services .services-image.side {
+    transform: rotateY(90deg);
+    transition: transform 0.25s; }
+  .restoration-services .services-image-div {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: rotateY(90deg);
+    transition: transform 0.25s;
+    padding-top: 40px;
+    color: orange; }
+  .restoration-services .services-image-div.side {
+    transform: rotateY(0deg);
+    transition: transform 0.25s; }
+

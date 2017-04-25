@@ -1,0 +1,49 @@
+﻿section {
+  margin-top: 100px; }
+
+.carousel-inner {
+  position: relative;
+  height: 400px;
+  overflow: hidden; }
+  .carousel-inner .carousel-image {
+    min-width: 100%; }
+  .carousel-inner .carousel-caption-customized {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel-bottom-bar {
+  background-color: white;
+  border-bottom: 1px solid black; }
+
+.container {
+  padding: 30px;
+  font-family: 'Libre Baskerville', serif; }
+  .container h2, .container h4 {
+    margin: 0px;
+    color: black; }
+  .container h2 {
+    font-weight: 700; }
+  .container h4 {
+    color: gray;
+    font-weight: 500; }
+  .container .carousel-bottom-desc {
+    padding-left: 20px;
+    border-left: 3px solid grey; }
+  .container .btn-call-us {
+    background-color: rgba(4, 170, 170, 0.8);
+    box-shadow: 4px 4px grey;
+    color: white;
+    padding: 10px 30px;
+    border: 0px;
+    font-size: 180%;
+    font-weight: 600; }
+  .container .btn-call-us:hover, .container .btn-call-us:focus {
+    box-shadow: 0px 0px white;
+    position: relative;
+    left: 4px;
+    top: 4px; }
+

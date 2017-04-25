@@ -1,0 +1,101 @@
+﻿* {
+  font-family: 'Raleway', sans-serif; }
+
+.absoulte {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.bernhardt-nav {
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .bernhardt-nav .nav-header {
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    min-width: 384px;
+    margin: 0px auto;
+    padding: 10px 0px; }
+    .bernhardt-nav .nav-header #nav-header-line-left {
+      border-top: 7px solid rgba(4, 170, 170, 0.5);
+      border-bottom: 7px solid rgba(4, 170, 170, 0.5);
+      border-left: 7px solid rgba(4, 170, 170, 0.5);
+      height: 70px;
+      width: 20px;
+      float: left; }
+    .bernhardt-nav .nav-header #nav-header-line-right {
+      border-top: 7px solid rgba(4, 170, 170, 0.5);
+      border-bottom: 7px solid rgba(4, 170, 170, 0.5);
+      border-right: 7px solid rgba(4, 170, 170, 0.5);
+      height: 70px;
+      width: 20px;
+      float: left; }
+  .bernhardt-nav #bernhardt-nav-header {
+    padding: 5px 20px;
+    position: relative;
+    float: left; }
+  .bernhardt-nav #bernhardt-nav-name {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, 0); }
+    .bernhardt-nav #bernhardt-nav-name h4 {
+      border-top: 1px solid black;
+      margin: 0;
+      padding-top: 3px; }
+  .bernhardt-nav a {
+    color: black; }
+
+.bernhardt-nav-menu {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.4);
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 600; }
+  .bernhardt-nav-menu a {
+    color: black;
+    padding: 5px 30px; }
+  .bernhardt-nav-menu a:hover, .bernhardt-nav-menu a:focus {
+    color: #04aaaa;
+    text-decoration: none; }
+  .bernhardt-nav-menu ul {
+    list-style: none;
+    margin-bottom: 2px; }
+    .bernhardt-nav-menu ul li {
+      font-size: 150%;
+      margin: 7px 5%;
+      display: inline-block;
+      margin-bottom: 5px; }
+    .bernhardt-nav-menu ul li:hover {
+      border-bottom: 5px solid #04aaaa;
+      margin-bottom: -5px; }
+
+#first-char-nav {
+  color: #04aaaa;
+  font-size: 120%; }
+
+.bernhardt-footer {
+  padding: 10px 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center; }
+
+#logo-image {
+  width: 50%; }
+
+.copyright {
+  margin: 20px auto; }
+
+.align-left {
+  text-align: right; }
+
+.social-icon {
+  width: 75px;
+  opacity: 0.5;
+  transition: opacity 0.5s; }
+
+.social-icon:focus, .social-icon:hover {
+  opacity: 1; }
+
